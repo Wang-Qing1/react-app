@@ -4,7 +4,8 @@
     top: 0;
     z-index: 1;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    height: 50px;
+    background-color: #001529;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     padding: 0px !important;
 }
@@ -29,7 +30,11 @@
 
 /* 顶部导航栏 LOGO */
 .header-logo {
-    margin: 0 6px 0 3em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2em;
+    color: #F0F2F5;
 }
 
 /* 顶部导航栏 其他 */
@@ -38,5 +43,11 @@
     flex: 1;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 3em;
+    margin-right: 2em;
+    color: #F0F2F5;
+}
+
+.header-logo-icon {
+    margin-right: 2px;
+    font-size: 24px;
 }
