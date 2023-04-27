@@ -7,6 +7,7 @@ React APP项目
 - react：React框架，v18.2.0
 - react-dom：React框架，v18.2.0
 - react-scripts：React项目脚手架，v5.0.1
+- prop-types: 类型校验框架，v15.8.1
 
 ### UI框架
 - antd：Antd Design，v5.4.5
@@ -14,6 +15,7 @@ React APP项目
 
 ### 功能框架
 - react-router-dom：React 路由库，v6.10.0
+- nanoid: UUID 功能库，v4.0.2
 - @testing-library：React 测试库
 
 ### 脚手架

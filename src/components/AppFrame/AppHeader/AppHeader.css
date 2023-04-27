@@ -1,0 +1,31 @@
+.app-frame-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    padding: 0px !important;
+}
+
+/* 顶部导航栏 路由样式 */
+.page-route-nav-link {
+    margin: 0 6px;
+    color: rgba(0, 0, 0, .8);
+}
+
+/* 顶部导航栏 LOGO */
+.header-logo {
+    margin: 0 6px 0 20px;
+    width: 100px;
+}
+
+/* 顶部导航栏 其他 */
+.header-page-route-other {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}

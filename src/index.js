@@ -2,7 +2,8 @@ import React from "react";
 import {createRoot} from "react-dom/client";
 import App from "./App";
 import {ConfigProvider} from "antd";
-import zhCN from 'antd/es/locale/zh_CN'
+import zhCN from 'antd/es/locale/zh_CN';
+import './styles/index.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
