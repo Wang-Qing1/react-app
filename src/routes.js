@@ -3,6 +3,7 @@
 import {getUid} from "./utils/utils";
 import Home from "./page/Home/Home";
 import About from "./page/About/About";
+import {ExclamationCircleOutlined, HomeOutlined} from "@ant-design/icons";
 
 /**
  * 页面跳转路由配置
@@ -10,29 +11,18 @@ import About from "./page/About/About";
 const PageRoutes = [
   {
     uid: getUid('route'),
+    title: '首页',
+    icon: <HomeOutlined />,
     path: '/',
     element: <Home />,
   },
   {
     uid: getUid('route'),
+    title: '关于',
+    icon: <ExclamationCircleOutlined />,
     path: '/about',
     element: <About />,
   }
 ];
 
-/**
- * 路径与表示意义的映射
- *  用于在各个页面中构建路由Link
- */
-const PathMapping = {
-  home: {
-    title: '首页',
-    path: '/',
-  },
-  about: {
-    title: '关于',
-    path: '/about',
-  }
-}
-
-export { PageRoutes, PathMapping };
+export { PageRoutes };

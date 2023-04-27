@@ -23,11 +23,6 @@
     line-height: 14px;
 }
 
-/* 路由 被选中 */
-.header-page-route .active {
-    color: #1677FF;
-}
-
 /* 顶部导航栏 LOGO */
 .header-logo {
     display: flex;
@@ -50,4 +45,41 @@
 .header-logo-icon {
     margin-right: 2px;
     font-size: 24px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.header-menu-link {
+    padding: 0px 10px 0px 10px;
+    height: 100%;
+}
+
+.header-menu-item {
+    color: #F0F2F5;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.header-menu-item:hover {
+    color: rgba(89, 158, 255, 1);
+}
+
+.header-menu .active {
+    border-bottom: 2px solid #1677FF;
+}
+
+.header-menu .active .header-menu-item {
+    color: #2982FF;
+}
+
+.header-menu-item .anticon {
+    margin-right: 6px;
 }
