@@ -9,10 +9,22 @@
     padding: 0px !important;
 }
 
+/* 全部 路由 */
+.header-page-route {
+    display: flex;
+}
+
 /* 顶部导航栏 路由样式 */
 .page-route-nav-link {
     margin: 0 6px;
     color: rgba(0, 0, 0, .8);
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/* 路由 被选中 */
+.header-page-route .active {
+    color: #1677FF;
 }
 
 /* 顶部导航栏 LOGO */
