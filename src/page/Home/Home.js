@@ -1,5 +1,6 @@
 // Home.js
 import React from "react";
+import './Home.css';
 
 /**
  * 项目 - 首页
@@ -16,7 +17,6 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className={'app-home'}>
-        首页
       </div>
     );
   }

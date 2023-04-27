@@ -29,8 +29,7 @@
 
 /* 顶部导航栏 LOGO */
 .header-logo {
-    margin: 0 6px 0 20px;
-    width: 100px;
+    margin: 0 6px 0 3em;
 }
 
 /* 顶部导航栏 其他 */
@@ -39,5 +38,5 @@
     flex: 1;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 3em;
 }

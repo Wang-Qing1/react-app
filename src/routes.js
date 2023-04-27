@@ -1,7 +1,6 @@
 // routes.js
 
 import {getUid} from "./utils/utils";
-import {ExclamationCircleOutlined, HomeOutlined} from "@ant-design/icons";
 import Home from "./page/Home/Home";
 import About from "./page/About/About";
 
@@ -12,17 +11,28 @@ const PageRoutes = [
   {
     uid: getUid('route'),
     path: '/',
-    title: '首页',
-    icon: <HomeOutlined />,
     element: <Home />,
   },
   {
     uid: getUid('route'),
     path: '/about',
-    title: '关于',
-    icon: <ExclamationCircleOutlined />,
     element: <About />,
   }
 ];
 
-export { PageRoutes };
+/**
+ * 路径与表示意义的映射
+ *  用于在各个页面中构建路由Link
+ */
+const PathMapping = {
+  home: {
+    title: '首页',
+    path: '/',
+  },
+  about: {
+    title: '关于',
+    path: '/about',
+  }
+}
+
+export { PageRoutes, PathMapping };

@@ -19,7 +19,7 @@ export default class AppHeader extends React.Component {
     return (
       <Layout.Header className={'app-frame-header'}>
         <div className={'header-logo'}>
-          LOGO
+          INTERESTING APP
         </div>
         <div className={'header-page-route-other'}>
           Other
