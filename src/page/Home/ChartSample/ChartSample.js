@@ -11,7 +11,7 @@ export default class ChartSample extends React.Component {
       <ProCard ghost={true} direction={"row"} gutter={[8,8]} wrap={true}>
         <ProCard
           title={'图表-1'}
-          extra={'GO'}
+          extra={'Go'}
           bordered={true}
           colSpan={6}
         >

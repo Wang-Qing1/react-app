@@ -12,7 +12,7 @@ export default class SimpleSample extends React.Component {
       <ProCard ghost={true} direction={"row"} gutter={[8,8]} wrap={true}>
         <ProCard
           title={'基础-1'}
-          extra={'GO'}
+          extra={'Go'}
           bordered={true}
           colSpan={6}
         >
