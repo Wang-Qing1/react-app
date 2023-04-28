@@ -2,7 +2,6 @@
 
 import {getUid} from "./utils/utils";
 import Home from "./page/Home/Home";
-import About from "./page/About/About";
 
 /**
  * 简单样例
@@ -32,12 +31,6 @@ const PageRoutes = [
     title: '首页',
     path: '/',
     element: <Home />,
-  },
-  {
-    uid: getUid('route'),
-    title: '关于',
-    path: '/about',
-    element: <About />,
   },
   ...SimpleSampleRoutes,
   ...ComplexSampleRoutes,
