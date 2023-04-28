@@ -19,6 +19,7 @@ React APP项目
 - nanoid: UUID 功能库，v4.0.2
 - @testing-library：React 测试库
 - mock-js：随机数据生成 Mock功能库, v1.1.0
+- moment: 日期格式化 功能库, v2.29.4
 
 ### 脚手架
 - react-scripts: Create React App 脚手架，v5.0.1
