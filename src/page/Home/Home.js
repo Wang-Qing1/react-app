@@ -36,8 +36,10 @@ export default class Home extends React.Component {
           <ProCard
             className={'app-home-content-simple'}
             title={'基础样例'}
+            tooltip={'Ant Design v5 框架组件的简单使用'}
             headerBordered={true}
             collapsible={true}
+            defaultCollapsed={true}
             gutter={[8,8]}
             colSpan={24}
           >
@@ -46,17 +48,21 @@ export default class Home extends React.Component {
           <ProCard
             className={'app-home-content-complex'}
             title={'复杂样例'}
+            tooltip={'Ant Design Pro pro-components 高级组件的使用'}
             headerBordered={true}
             collapsible={true}
+            defaultCollapsed={true}
             colSpan={24}
           >
             <ComplexSample />
           </ProCard>
           <ProCard
             className={'app-home-content-chart'}
-            title={'图标样例'}
+            title={'图表样例'}
+            tooltip={'EChart v4|v5 图表组件的使用'}
             headerBordered={true}
             collapsible={true}
+            defaultCollapsed={true}
             colSpan={24}
           >
             <ChartSample />
