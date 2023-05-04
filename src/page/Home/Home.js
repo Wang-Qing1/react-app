@@ -39,7 +39,6 @@ export default class Home extends React.Component {
             tooltip={'Ant Design v5 框架组件的简单使用与Ant Design Pro pro-components 高级组件的使用'}
             headerBordered={true}
             collapsible={true}
-            defaultCollapsed={true}
             gutter={[8,8]}
             colSpan={24}
           >

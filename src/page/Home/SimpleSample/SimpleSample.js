@@ -5,7 +5,7 @@ import {ProCard} from "@ant-design/pro-components";
 import {NavLink} from "react-router-dom";
 
 /**
- * 复杂样例展示、描述、入口
+ * 简单样例展示、描述、入口
  */
 export default class SimpleSample extends React.Component{
   render() {
