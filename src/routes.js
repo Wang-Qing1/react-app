@@ -2,7 +2,7 @@
 
 import {getUid} from "./utils/utils";
 import Home from "./page/Home/Home";
-import WaterMarkComponent from "./page/Home/SimpleSample/WaterMarkComponent/WaterMarkComponent";
+import WaterMarkComponent from "./components/WaterMarkComponent/WaterMarkComponent";
 
 /**
  * 简单样例

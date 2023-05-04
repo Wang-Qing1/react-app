@@ -1,6 +1,6 @@
 // WaterMarkComponent.js
 import {ProCard, WaterMark} from "@ant-design/pro-components";
-import BaseComponent from "../../../../components/BaseComponent/BaseComponent";
+import BaseComponent from "../BaseComponent/BaseComponent";
 
 /**
  * pro-components - 水印组件
