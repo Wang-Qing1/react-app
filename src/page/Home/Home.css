@@ -1,0 +1,8 @@
+.app-home-content {
+    padding: 0px 1em 1em 1em;
+}
+
+.app-home-content-simple,
+.app-home-content-complex {
+    margin-bottom: 1em;
+}

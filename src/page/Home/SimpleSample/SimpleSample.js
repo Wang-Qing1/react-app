@@ -1,12 +1,12 @@
 // SimpleSample.js
 import React from "react";
+import './SimpleSample.css'
 import {ProCard} from "@ant-design/pro-components";
 
 /**
- * 简单样例展示、描述、入口
+ * 复杂样例展示、描述、入口
  */
-export default class SimpleSample extends React.Component {
-
+export default class SimpleSample extends React.Component{
   render() {
     return (
       <ProCard ghost={true} direction={"row"} gutter={[8,8]} wrap={true}>

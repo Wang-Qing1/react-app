@@ -31,8 +31,10 @@ export default class Home extends React.Component {
           extra={<DynamicClock />}
           headerBordered={true}
           wrap={true}
+          ghost={true}
         >
           <ProCard
+            className={'app-home-content-simple'}
             title={'基础样例'}
             headerBordered={true}
             collapsible={true}
@@ -42,6 +44,7 @@ export default class Home extends React.Component {
             <SimpleSample />
           </ProCard>
           <ProCard
+            className={'app-home-content-complex'}
             title={'复杂样例'}
             headerBordered={true}
             collapsible={true}
@@ -50,6 +53,7 @@ export default class Home extends React.Component {
             <ComplexSample />
           </ProCard>
           <ProCard
+            className={'app-home-content-chart'}
             title={'图标样例'}
             headerBordered={true}
             collapsible={true}
