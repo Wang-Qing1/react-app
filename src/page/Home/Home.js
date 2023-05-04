@@ -36,7 +36,7 @@ export default class Home extends React.Component {
           <ProCard
             className={'app-home-content-simple'}
             title={'基础样例'}
-            tooltip={'Ant Design v5 框架组件的简单使用'}
+            tooltip={'Ant Design v5 框架组件的简单使用与Ant Design Pro pro-components 高级组件的使用'}
             headerBordered={true}
             collapsible={true}
             defaultCollapsed={true}

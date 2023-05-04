@@ -2,12 +2,18 @@
 
 import {getUid} from "./utils/utils";
 import Home from "./page/Home/Home";
+import WaterMarkComponent from "./page/Home/SimpleSample/WaterMarkComponent/WaterMarkComponent";
 
 /**
  * 简单样例
  */
 const SimpleSampleRoutes = [
-
+  {
+    uid: getUid('simple'),
+    title: '水印',
+    path: '/watermark',
+    element: <WaterMarkComponent />,
+  },
 ];
 /**
  * 复杂样例
