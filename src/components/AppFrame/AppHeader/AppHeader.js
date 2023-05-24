@@ -23,7 +23,7 @@ export default class AppHeader extends React.Component {
         <div className={'header-logo'}>
           <LinkedinOutlined className={'header-logo-icon'}/>
           <NavLink to={'/'} style={{color: '#FFFFFF'}}>
-            INTERESTING APP
+            INTERESTING
           </NavLink>
         </div>
         <div className={'header-page-route-other'}>
